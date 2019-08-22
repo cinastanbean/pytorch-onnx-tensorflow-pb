@@ -4,7 +4,9 @@
 
 **有必要说在前面，避免后来者陷坑：** 
 
-**ONNX本来是Facebook联合AWS对抗Tensorflow的，所以注定ONNX-TF这件事是奸情，这是ONNX和TF偷情的行为，两个平台都不会为他们背书；Pytorch和Tensorflow各自在独立演变，动态图和静态图优化两者不会停战。如果你在尝试转模型这件事情，觉得你有必要考虑：1.让服务部署平台支持Pytorch; 2.转训练平台到TF; 3.这件事是一锤子买卖**； 
+**ONNX本来是Facebook联合AWS对抗Tensorflow的，所以注定ONNX-TF这件事是奸情，这是ONNX和TF偷情的行为，两个平台都不会为他们背书；Pytorch和Tensorflow各自在独立演变，动态图和静态图优化两者不会停战。如果你在尝试转模型这件事情，觉得你有必要考虑：1.让服务部署平台支持Pytorch; 2.转训练平台到TF; 3.这件事是一锤子买卖，干完就不要再倒腾了。**； 
+
+本Demo所使用模型来自：https://github.com/cinastanbean/Pytorch-Multi-Task-Multi-class-Classification
 
 
 [TOC]
